@@ -145,6 +145,8 @@
     <Text Include="ReadMe.txt" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="PhysicsCalculations.h" />
+    <ClInclude Include="PhysicsConstants.h" />
     <ClInclude Include="quizzes.h" />
     <ClInclude Include="IO.h" />
     <ClInclude Include="stdafx.h" />
@@ -152,7 +154,11 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="IO.cpp" />
-    <ClCompile Include="Quiz1.cpp" />
+    <ClCompile Include="Physics.cpp" />
+    <ClCompile Include="QuizChapter1.cpp" />
+    <ClCompile Include="QuizCalculator.cpp" />
+    <ClCompile Include="QuizPrime.cpp" />
+    <ClCompile Include="QuizBallDrop.cpp" />
     <ClCompile Include="stdafx.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
