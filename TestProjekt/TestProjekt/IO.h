@@ -1,7 +1,10 @@
 #ifndef IO_H
 #define IO_H
 
-int readNumber();
-void writeAnswer(int);
+double readNumber();
+char readCharacter();
+void writeAnswer(double);
+void printMessage(char[]);
+void printNumber(double);
 
-#endif // !QUIZ1_H
+#endif // !IO_H
