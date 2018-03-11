@@ -1,20 +1,22 @@
 #include "stdafx.h"
-#include "IO.h"
+#include <iostream>
 #include "PhysicsCalculations.h"
+
+
 
 
 void dropBall() {
 	double height;
-	printMessage("How high is your tower (in meters)?\n");
-	height = readNumber();
-	printMessage("How long has the ball been falling for (in seconds)?\n");
+	std::cout << "How high is your tower (in meters)?\n";
+	std::cin >> height;
+	std::cout << "How long has the ball been falling for (in seconds)?\n";
 	double time;
-	time = readNumber();
+	std::cin >> time;
 	
 	double distanceFromGround;
 	distanceFromGround = height - calcFallDistance(0, 0, time);
 
-	printMessage("You ball is ");
-	printNumber(distanceFromGround);
-	printMessage(" meters from the ground.\n");
+	std::cout << "You ball is ";
+	std::cout << distanceFromGround;
+	std::cout << " meters from the ground.\n";
 }

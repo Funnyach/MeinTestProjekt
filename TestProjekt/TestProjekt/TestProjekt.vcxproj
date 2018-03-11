@@ -151,12 +151,15 @@
     <ClInclude Include="IO.h" />
     <ClInclude Include="stdafx.h" />
     <ClInclude Include="targetver.h" />
+    <ClInclude Include="UsefulLibraries.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="IO.cpp" />
     <ClCompile Include="Physics.cpp" />
+    <ClCompile Include="ProgramManager.cpp" />
     <ClCompile Include="QuizChapter1.cpp" />
     <ClCompile Include="QuizCalculator.cpp" />
+    <ClCompile Include="QuizIsEven.cpp" />
     <ClCompile Include="QuizPrime.cpp" />
     <ClCompile Include="QuizBallDrop.cpp" />
     <ClCompile Include="stdafx.cpp">

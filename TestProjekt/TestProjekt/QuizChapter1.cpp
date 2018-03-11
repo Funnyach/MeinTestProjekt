@@ -1,14 +1,14 @@
 #include "stdafx.h"
 #include <iostream>
-#include "IO.h"
 
 void quiz1() {
 	std::cout << "Bitte geben Sie mir eine Zahl: ";
-	double number1{ readNumber() };
+	double addend1;
+	std::cin >> addend1; 
 
 	std::cout << "Bitte geben Sie mir eine zweite Zahl: ";
-	double number2 = { readNumber() };
-	
-	writeAnswer(number1+number2);
-}
+	double addend2;
+	std::cin >> addend2; 
 
+	std::cout << "Ihre Zahlen ergeben addiert: " << addend1 + addend2;
+}
