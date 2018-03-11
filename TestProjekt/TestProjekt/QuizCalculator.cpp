@@ -4,6 +4,7 @@
 double nummer1; 
 double nummer2;
 char rechenzeichen;
+double getUserInput();
 
 double calculate(double zahl1, double zahl2, char rechenzeichen) {
 	if (rechenzeichen == '+')

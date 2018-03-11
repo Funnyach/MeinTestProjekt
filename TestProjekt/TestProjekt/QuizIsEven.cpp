@@ -16,5 +16,5 @@ void even(){
 	if (checkEven(number))
 		std::cout << "This number is even.\n";
 	else
-		std::cin >> "This number is odd.\n";
+		std::cout << "This number is odd.\n";
 }
