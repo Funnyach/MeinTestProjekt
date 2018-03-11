@@ -153,6 +153,7 @@
     <ClInclude Include="UsefulLibraries.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="BinaryConverter.cpp" />
     <ClCompile Include="Physics.cpp" />
     <ClCompile Include="ProgramManager.cpp" />
     <ClCompile Include="QuizChapter1.cpp" />
