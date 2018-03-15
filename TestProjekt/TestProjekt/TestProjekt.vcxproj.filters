@@ -30,9 +30,6 @@
     <ClInclude Include="PhysicsCalculations.h">
       <Filter>Headerdateien</Filter>
     </ClInclude>
-    <ClInclude Include="UsefulLibraries.h">
-      <Filter>Headerdateien</Filter>
-    </ClInclude>
     <ClInclude Include="Constants.h">
       <Filter>Headerdateien</Filter>
     </ClInclude>
@@ -43,6 +40,9 @@
       <Filter>Headerdateien</Filter>
     </ClInclude>
     <ClInclude Include="Enums.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="RNG.h">
       <Filter>Headerdateien</Filter>
     </ClInclude>
   </ItemGroup>
@@ -78,6 +78,9 @@
       <Filter>Quelldateien</Filter>
     </ClCompile>
     <ClCompile Include="QuizMonsters.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="rng.cpp">
       <Filter>Quelldateien</Filter>
     </ClCompile>
   </ItemGroup>
