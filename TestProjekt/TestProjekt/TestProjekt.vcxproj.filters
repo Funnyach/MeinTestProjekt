@@ -27,13 +27,13 @@
     <ClInclude Include="quizzes.h">
       <Filter>Headerdateien</Filter>
     </ClInclude>
-    <ClInclude Include="PhysicsConstants.h">
-      <Filter>Headerdateien</Filter>
-    </ClInclude>
     <ClInclude Include="PhysicsCalculations.h">
       <Filter>Headerdateien</Filter>
     </ClInclude>
     <ClInclude Include="UsefulLibraries.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="Constants.h">
       <Filter>Headerdateien</Filter>
     </ClInclude>
   </ItemGroup>

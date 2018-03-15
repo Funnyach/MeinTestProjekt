@@ -2,7 +2,6 @@
 #include <iostream>
 
 
-int digit;
 int getUserInput() {
 	std::cout << "Sag mir eine Zahl zwischen 0 und 4096 die ich in Binaer umwandeln soll: ";
 	int zahl;
@@ -11,19 +10,18 @@ int getUserInput() {
 }
 
 
-void writeNextDigit(int number) {
+void writeNextDigit(int number, int &digit) {
 	if (number > 0) {
-		++digit;
 		if (number % 2 == 1) {
 			number -= 1;
 			number /= 2;
-			writeNextDigit(number);
+			writeNextDigit(number, ++digit);
 			std::cout << 1;
 			
 		}
 		else {
 			number /= 2;
-			writeNextDigit(number);
+			writeNextDigit(number, ++digit);
 			std::cout << 0;
 		}
 		
@@ -33,15 +31,17 @@ void writeNextDigit(int number) {
 		}
 	}
 	else {
-		for (int i = digit % 4; i > 0; i--) {
-			std::cout << "0";
+		if (digit % 4 != 0) {
+			for (int i = 4-(digit % 4); i > 0; i--) {
+				std::cout << "0";
+			}
 		}
 	}
 }
 
 void writeAsBinary(int decimalNumber) {
-	digit = 0;
-	writeNextDigit(decimalNumber);
+	int digit = 0;
+	writeNextDigit(decimalNumber, digit);
 	std::cout << "\n";
 }
 

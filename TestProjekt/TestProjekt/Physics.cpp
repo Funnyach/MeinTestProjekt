@@ -1,5 +1,5 @@
 #include "stdafx.h"
-#include "PhysicsConstants.h"
+#include "Constants.h"
 #include <cmath>
 
 double calcDistance(double startDistance, double velocity, double acceleration, double time) {
@@ -10,5 +10,5 @@ double calcDistance(double startDistance, double velocity, double acceleration, 
 
 // startDistance
 double calcFallDistance(double startDistance, double velocity, double time) {
-	return calcDistance(startDistance, velocity, physicsConstants::erdbeschlaeunigung, time);
+	return calcDistance(startDistance, velocity, Constants::erdbeschlaeunigung, time);
 }

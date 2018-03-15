@@ -5,5 +5,7 @@ void quiz1();
 bool isPrime(int);
 void calculator();
 void dropBall();
-void isEven();
+void even();
+void binaryConverter();
+
 #endif //QUIZZES_H
