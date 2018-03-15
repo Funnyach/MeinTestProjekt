@@ -36,6 +36,15 @@
     <ClInclude Include="Constants.h">
       <Filter>Headerdateien</Filter>
     </ClInclude>
+    <ClInclude Include="StandardLibraryIncludes.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="Structs.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="Enums.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
@@ -66,6 +75,9 @@
       <Filter>Quelldateien</Filter>
     </ClCompile>
     <ClCompile Include="BinaryConverter.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="QuizMonsters.cpp">
       <Filter>Quelldateien</Filter>
     </ClCompile>
   </ItemGroup>

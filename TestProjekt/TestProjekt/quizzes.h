@@ -7,5 +7,6 @@ void calculator();
 void dropBall();
 void even();
 void binaryConverter();
+void monsterQuiz();
 
 #endif //QUIZZES_H

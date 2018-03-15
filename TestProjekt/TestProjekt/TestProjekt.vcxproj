@@ -145,15 +145,19 @@
     <Text Include="ReadMe.txt" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Enums.h" />
     <ClInclude Include="PhysicsCalculations.h" />
     <ClInclude Include="Constants.h" />
     <ClInclude Include="quizzes.h" />
+    <ClInclude Include="StandardLibraryIncludes.h" />
     <ClInclude Include="stdafx.h" />
+    <ClInclude Include="Structs.h" />
     <ClInclude Include="targetver.h" />
     <ClInclude Include="UsefulLibraries.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="BinaryConverter.cpp" />
+    <ClCompile Include="QuizMonsters.cpp" />
     <ClCompile Include="Physics.cpp" />
     <ClCompile Include="ProgramManager.cpp" />
     <ClCompile Include="QuizChapter1.cpp" />
