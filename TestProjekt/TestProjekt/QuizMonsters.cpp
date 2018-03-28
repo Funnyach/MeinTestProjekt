@@ -5,7 +5,7 @@
 using std::cout;
 using std::string;
 
-string getMonsterTypeName(MonsterType type) {
+string getMonsterTypeName(const MonsterType &type) {
 	switch (type) {
 		case MonsterType::OGRE:
 			return "Ogre";
@@ -22,7 +22,7 @@ string getMonsterTypeName(MonsterType type) {
 	}
 }
 
-void printMonster(Monster mon) {
+void printMonster(const Monster &mon) {
 	cout << "This " << getMonsterTypeName(mon.type) << " is named " << mon.name << " and has " << mon.health << " health.";
 }
 

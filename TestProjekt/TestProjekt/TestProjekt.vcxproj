@@ -157,6 +157,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="BinaryConverter.cpp" />
+    <ClCompile Include="Pointers.cpp" />
     <ClCompile Include="QuizMonsters.cpp" />
     <ClCompile Include="Physics.cpp" />
     <ClCompile Include="ProgramManager.cpp" />

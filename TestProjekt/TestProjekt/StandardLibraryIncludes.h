@@ -6,6 +6,13 @@
 #include <cstdint>
 #include <string>
 #include <cmath>
+#include <array>
+
+// sort and other useful stuff
+#include <algorithm>
+
+// example was the std::swap function
+#include <utility>
 
 // for Sleep(milliseconds)
 #include <Windows.h>
@@ -18,5 +25,8 @@
 
 // this if for time() (returns the system time in seconds since midnight 1st january 1970)
 #include <ctime>
+
+// this is for a more readable and easier way to use bitwise operations
+#include <bitset>
 
 #endif // STANDARDLIBRARYINCLUDES_H
